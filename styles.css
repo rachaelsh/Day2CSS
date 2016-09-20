@@ -1,0 +1,56 @@
+.container{
+  width: 80vw; /*viewwidth*/
+  height: 100vw;
+  margin: auto; /*will center*/
+  font-family: "Oswald";
+}
+
+header {
+  width:100%;
+  height:20vh; /*20 view height*/
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+
+.row2{
+  width: 100%;
+  height: 80vh;
+}
+
+.left, .right{
+height:100%;
+width:50%;
+text-align: center;
+float:left;
+}
+
+.left{
+  background-image: url("https://www.floridamemory.com/fpc/reference/rc24050.jpg");
+  color: #ffffff;
+  background-size: cover;
+
+}
+
+.right{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow); /* Standard syntax */
+}
+
+.left h1, .left p {
+  margin: 40px;
+}
+
+.wasser{
+  width: 75%;
+  margin:
+}
+
+i {
+  width:20px;
+  height:20px;
+}
